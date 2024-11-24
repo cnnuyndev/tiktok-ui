@@ -79,6 +79,12 @@
       transform: translateY(-50%) rotate(360deg);
   }
 }
+.spanSpliter{
+  width: 1px;
+  height: 28px;
+  margin: 7px 0px;
+  background: rgba(22, 24, 35, 0.12);
+}
 
 .search-btn{
   display: flex;
@@ -89,7 +95,8 @@
   border-top-right-radius: var(--search-border-radius);
   border-bottom-right-radius: var(--search-border-radius);
   font-size: 1.8rem;
-  background-color: rgba(22, 24, 35, 0.34);
+  // background-color: rgba(22, 24, 35, 0.34);
+  background-color: transparent;
   &:hover{
       cursor: pointer;
       background-color: rgba(22, 24, 35, 0.03);
