@@ -14,7 +14,7 @@ import {
 import Tippy from '@tippyjs/react'
 import 'tippy.js/dist/tippy.css'
 import classNames from 'classnames/bind'
-import styles from '~/components/Layout/components/Header/Header.module.scss'
+import styles from '~/layouts/components/Header/Header.module.scss'
 import images from '~/assets/images'
 import Button from '~/components/Buttons'
 import Menu from '~/components/Popper/Menu'
